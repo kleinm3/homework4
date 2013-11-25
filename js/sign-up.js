@@ -3,18 +3,8 @@
 
 $(function(){
 	//document is now ready for manipulation
-	var stateSelect = ('');
-	var select = $('select[name="state"]');
     var option;
 	var idx; 
-	var state; 
-	for (idx = 0; idx < usStates.length; ++idx) {
-		state = usStates[idx];
-		option = $(document.createElement('option'));
-		option.attr('value', state.abbreviation);
-		option.html(state.name);
-		select.append(option);	
-	}
 
 	$('.signup-form').submit(function(){
 		//code to execute when the sign-up form is submitted

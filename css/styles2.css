@@ -271,7 +271,9 @@ font-weight: lighter;
 .deliveryTime {
 	font-size: 20px;
 	font-weight: bold; 
-	color: #FFF;
+	color: red;
+	text-align: center;
+
 }
 
 h2,
